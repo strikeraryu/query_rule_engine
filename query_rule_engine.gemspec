@@ -36,4 +36,10 @@ Gem::Specification.new do |spec|
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
+
+  spec.post_install_message = <<-MESSAGE
+  !    The 'query_rule_engine' gem has been deprecated and has been replaced by 'query_police'.
+  !    See: https://rubygems.org/gems/query_police
+  !    And: https://github.com/strikeraryu/query_police
+  MESSAGE
 end

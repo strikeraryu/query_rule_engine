@@ -1,5 +1,7 @@
 # QueryRuleEngine
 
+Moved to [query_police](https://github.com/strikeraryu/query_police).
+
 It is a rule-based engine with custom rules to Analyze Active-Record relations using explain results to detect bad queries.
 
 ## Installation
